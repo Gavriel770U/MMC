@@ -1,0 +1,21 @@
+Marco, or his real name - Mar.Corona, has a problem.
+
+Every year for the past thirty years, educational television has separated him from his mother, and then demanded him to cross the Earth with a monkey on his shoulder.
+
+So far it's fine, but the story we're dealing with, takes us back a little in time - for a very interesting period.
+
+Welcome back to the Corona time!
+
+And little Marco from Genoa, Italy, is in isolation !! He can't escape his father and find his mother in another country !!
+
+What can he do?!
+
+First of all, no panic. The boy is drawn. His mom too. you too. (what?!) Anyway, despite the difficulty Marco's mother sent him a very exciting and high technological postcard (!!)
+
+But unfortunately, the IEEE announced in those days that TCP packets are not allowed to contains over than 100 bytes in the data part (not headers). Terrorist organizations sabotaged the exciting message that Marco's mother sent.
+
+At this point, we appeal to you: Take out the rogue bytes, that don't meet the guidelines, and tell Marco the message he is so looking for.
+
+Remember: Unlike the Corona - scapy is a friend. And you shouldn't wash your hands after touching it.
+
+Good luck!!
