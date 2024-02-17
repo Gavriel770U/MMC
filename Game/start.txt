@@ -1,0 +1,5 @@
+This program is used by Magshimim in a daily basis. We have lost the password, please help us retrieve a new one.
+
+Note: wrap your license code with "MMC{....}" before submitting. Example: MMC{password}
+
+Good Luck!
