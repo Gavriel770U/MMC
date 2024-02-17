@@ -15,4 +15,6 @@ So the file content should be `GGGGGGGGGGGGGGGG`
 And now we get the next message: `Done. Enjoy your new license!!!`.
 So, the solution for the MMC is:
 
+```
 MMC{GGGGGGGGGGGGGGGG}
+```
