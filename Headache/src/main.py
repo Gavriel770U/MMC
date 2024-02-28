@@ -18,11 +18,26 @@ def main() -> None:
     with open(FIRST_FILE_NAME, READ_BIN) as first_bin_file:
         with open(SECOND_FILE_NAME, READ_BIN) as second_bin_file:
             with open(output_file_name, WRITE_BIN) as merged_bin_file:
-                data = first_bin_file.readlines() + second_bin_file.readlines()
                 total = b''
                 
-                for line in data:
-                    total += line                
+                first_file_lines = []
+                second_file_lines = []
+                
+                for line in first_bin_file.readlines():
+                    if line and len(line) > 1 and line != '\n':
+                        first_file_lines.append(line)
+                 
+                for line in second_bin_file.readlines():
+                    if line and len(line) > 1 and line != '\n':
+                        second_file_lines.append(line)  
+                
+                while len(first_file_lines) or len(second_file_lines):
+                    if len(first_file_lines):
+                        total += first_file_lines[0]
+                        first_file_lines = first_file_lines[1:]
+                    if len(second_file_lines):
+                        total += second_file_lines[0]
+                        second_file_lines = second_file_lines[1:]
                 
                 merged_bin_file.write(total)
 
