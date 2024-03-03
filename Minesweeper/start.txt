@@ -1,0 +1,13 @@
+Did you enjoy defusing the bomb? This is your next challenge.
+
+Open the minesweeper executable in IDA. Do some research and learn how the game works.
+
+Can you find how minesweeper represents different block states? (empty, mine, exposed, covered etc)
+
+The password is: MMC{0x[],0x[],0x[],0x[]}
+sorted by this order: mine(before explosion), flag, 2, 4
+
+Some more interesting ideas to research: Explain how come the first click of a game never falls on a mine. How does minesweeper lay out the board in a way that such a case does not occur? Can you hack the game to complete the expert level in one second?
+
+Good luck!
+
