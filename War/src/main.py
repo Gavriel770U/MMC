@@ -1,6 +1,9 @@
 import os
 from consts import *
 
+def get_sorted_dict_by_values(dct: dict) -> dict:
+    return dict(sorted(dct.items(), key=lambda item: item[1], reverse=True))
+
 def get_dict_values_sum(dct: dict) -> float:
     dct_sum = 0
     for val in dct.values():
@@ -22,7 +25,7 @@ def get_frequencies(data: str) -> dict:
     for key in count.keys():
         count[key] /= data_vals_sum
 
-    print(count)
+    return get_sorted_dict_by_values(count)
     
 
 def main() -> None:
