@@ -1,0 +1,7 @@
+We're in the middle of war against the Roman Empire, their army is getting closer to our bases. we must stop them. We have received some of their communication data with our giant antenna and we can't figure out what is says. We have reasons to believe it's encrypted.
+
+The message and letter frequency statistics are attached.
+
+Can you help us win the war?
+
+Note: The flag will look like this MMC{password}
