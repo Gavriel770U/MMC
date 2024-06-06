@@ -1,0 +1,5 @@
+Our best friends from out of space sent us a pcap file that contains some packet related to "MAGSHIMIM". Can you create a BPF to GET them all? Here is the capture file: https://drive.google.com/file/d/1qQrSI0wii6kbTitojMlQ0gcFRVwWydTY/view?usp=sharing
+
+Hint: https://biot.com/capstats/bpf.html
+
+If you're having problems running the bpf_checker.exe, please upgrade your python version. (Works with python 2.7.11 and newer)
